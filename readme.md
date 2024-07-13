@@ -45,4 +45,4 @@ By the end of these activities, you will:
 
 ### Solution:
 
-Solutions to the challenges can be found [here](./1.Day1-Variables%20and%20Data%20Types/activites.js).
+Solutions to the challenges can be found [here](./Day1-Variables%20and%20Data%20Types/activites.js).
