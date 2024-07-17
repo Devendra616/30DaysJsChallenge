@@ -184,3 +184,76 @@ By the end of these activities, students will:
 - Apply do...while loops to ensure the loop body is executed at least once.
 - Implement nested loops to solve more complex problems.
 - Use loop control statements (break and continue) to control the flow of loops.
+
+## Day 5 - Functions
+
+To **declare** a function, you use the `function` keyword and specify a name for the function.
+
+In **function expressions**, you create a function expression and assign it to a `variable` that can be called.
+
+Function expression can also be created using the `arrow function` syntax.
+
+**Note:** Expressed functions cannot be used before initialization. But can use delcared function before its initialization. Declared functions are `hoisted` to the top of the scope.
+
+```javascript
+sayHello1(); // Hello1!
+sayHello2(); // ReferenceError:Cannot access 'sayHello2' before initialization
+sayHello3(); //ReferenceError: Cannot access 'sayHello3' before initialization
+
+// function declaration
+function sayHello1() {
+  console.log("Hello1!");
+}
+
+// anonymous function expression
+const sayHello2 = function () {
+  console.log("Hello2!");
+};
+
+// arrow function expression
+const sayHello3 = () => {
+  console.log("Hello3!");
+};
+```
+
+### Tasks / Activities:
+
+#### Activity 1: Function Declaration
+
+**Task 1:** ✅ Write a function to check if a number is even or odd and log the result to the console.
+
+**Task 2:** ✅ Write a function to calculate the square of a number and return the result.
+
+#### Activity 2: Function Expression
+
+**Task 3:** ✅ Write a function expression to find the maximum of two numbers and log the result to the console.
+
+**Task 4:** ✅ Write a function expression to find to concatenate two strings and return the result.
+
+#### Activity 3: Arrow Functions
+
+**Task 5:** ✅ Write an arrow function to calculate the sum of two numbers and return the result.
+
+**Task 6:** ✅ Write an arrow function to check if a string contains a specific character and return a boolean value.
+
+#### Activity 4: Function Parameters and Default Values
+
+**Task 7:** ✅ Write a function that takes two parameters and returns their product. Provide a default value for the second parameter.
+
+**Task 8:** ✅ Write a function that takes a person's name and age and returns their product. Provide a default value for the age.
+
+#### Activity 5: Higher-Order Functions
+
+**Task 9:** ✅ Write a higher-order function that takes a function and a number, and calls the function that many times.
+
+**Task 10:** ✅ Write a higher-order function that takes two functions and value, applies the first function to the value, and then applies the second function to the result.
+
+### Achievement:
+
+By the end of these activities, you will:
+
+- Understand and define functions using function declarations, expressions, and arrow functions.
+- Use function parameters and default values effectively.
+- Create and utilize higher-order functions.
+- Apply functions to solve common problems and perform calculations.
+- Enhance code reusability and organization using functions.
