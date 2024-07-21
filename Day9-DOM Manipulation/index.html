@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home Page</title>
+    <style>
+      .highlight {
+        color: white;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>DOM Manipulation</h1>
+
+    <div class="container">
+      <div>
+        <p id="p1">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate,
+          quibusdam cumque. Praesentium quam animi tempora adipisci dolorem
+          eligendi sunt aut et consequuntur iste a, accusantium voluptas sequi
+          officiis hic aliquam vitae necessitatibus officia. Fugiat, hic aliquam
+          blanditiis ex aperiam soluta.
+        </p>
+        <p class="important">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis
+          impedit tempore optio illum labore ea. Deserunt ex voluptatum quisquam
+          inventore.
+        </p>
+      </div>
+      <div>
+        Check List
+        <ul class="checkList">
+          <li>Backup Database</li>
+          <li>Check server uptime</li>
+        </ul>
+
+        <img
+          src="https://img.freepik.com/free-photo/female-tourists-spread-their-arms-held-their-wings_1150-7462.jpg?t=st=1721564670~exp=1721568270~hmac=b7bcc40b1fabff618622d80e26583cbec2d7569ef61d1733bd95145a0a4f74ce&w=1380"
+          width="500"
+          height="400"
+          alt=""
+        /><br />
+        <button onclick="changeImage()">Change Image</button>
+        <br />
+        <button onclick="addClass()">Add Class</button>
+        <button onclick="removeClass()">Remove Class</button>
+        <button onclick="toggleClass()">Toggle Class</button>
+
+        <p class="changePara">This is small paragraph</p>
+        <br />
+        <button class="changePara">change paragraph</button>
+      </div>
+
+      <button id="logout">To be removed</button>
+    </div>
+    <script src="./activities.js"></script>
+  </body>
+</html>
