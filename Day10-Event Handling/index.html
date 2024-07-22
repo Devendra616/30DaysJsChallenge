@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Event Handling</title>
+    <style>
+      .hide {
+        visibility: hidden;
+      }
+      div .changeColor {
+        width: 200px;
+        height: 200px;
+        background-color: bisque;
+      }
+      .activity4 span {
+        color: wheat;
+        background-color: gray;
+        padding: 2px 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Event Handling</h1>
+    <div class="activity1">
+      <h2>Activity - 1</h2>
+      <p class="intro">
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quia labore
+        tempore exercitationem facilis rem quibusdam. Similique non incidunt
+        aliquid magni sapiente vel quaerat eaque doloribus? Officia at labore
+        cum neque laborum! Numquam ullam nesciunt dicta quaerat autem earum
+        totam dignissimos illum, quam, cum harum sed non sunt, quis sit officia!
+      </p>
+      <button class="intro">Change Para</button><br />
+      <div>
+        <img
+          src="https://images.unsplash.com/photo-1486365227551-f3f90034a57c?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+          alt="Bird image"
+          width="600"
+          height="400"
+        />
+      </div>
+
+      <button class="hideImage">Hide</button>
+    </div>
+    <hr />
+    <div class="activity2">
+      <h2>Activity - 2</h2>
+      <div class="changeColor"></div>
+    </div>
+    <hr />
+    <div class="activity3">
+      <h2>Activity - 3</h2>
+      <input type="text" name="name" />
+      - You have typed -
+      <p></p>
+    </div>
+    <hr />
+    <div class="activity4">
+      <form action="#" method="post">
+        First Name: <input type="text" name="firstName" id="firstName" /><br />
+        Email: <input type="email" name="email" id="email" /><br />
+        Password: <input type="password" name="password" /><br />
+        State:
+        <select name="state">
+          <option value="CG">Chhatisargh</option>
+          <option value="UP">Uttar Pradesh</option>
+          <option value="MP">Madhya Pradesh</option></select
+        ><br />
+        <input type="submit" value="Register" /><br />
+        You are from <span>Chhatisargh </span>
+      </form>
+    </div>
+    <hr />
+    <div class="activity5">
+      Qualifications:
+      <ul>
+        <li>MCA - HBTI Kanpur</li>
+        <li>BSc - Computer Sci, Math</li>
+        <li>Intermediate - CBSE Board</li>
+        <li>High School - CBSE Board</li>
+      </ul>
+      <button>Add New</button>
+    </div>
+    <script src="./activities.js"></script>
+  </body>
+</html>
