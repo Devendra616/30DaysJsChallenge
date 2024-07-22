@@ -45,7 +45,7 @@ By the end of these activities, you will:
 
 ### Solution:
 
-Solutions to the challenges can be found [here](./Day1-Variables%20and%20Data%20Types/activites.js).
+Solutions to the challenges can be found [here](./01.Day1-Variables%20and%20Data%20Types/activites.js).
 
 ## Day 2 - Operators
 
@@ -101,7 +101,7 @@ By the end of these activities, you will:
 
 ### Solution:
 
-Solutions to the challenges can be found [here](./Day2-Operators/activites.js).
+Solutions to the challenges can be found [here](./02.Day2-Operators/activites.js).
 
 ## Day 3 - Control Structures
 
@@ -141,7 +141,7 @@ By the end of these activities, you will:
 
 ### Solution:
 
-Solutions to the challenges can be found [here](./Day3-Control%20Structures/activites.js).
+Solutions to the challenges can be found [here](./03.Day3-Control%20Structures/activites.js).
 
 ## Day 4 - Loops
 
@@ -187,7 +187,7 @@ By the end of these activities, students will:
 
 ### Solution:
 
-Solutions to the challenges can be found [here](./Day4-Loops/activites.js).
+Solutions to the challenges can be found [here](./04.Day4-Loops/activites.js).
 
 ## Day 5 - Functions
 
@@ -264,7 +264,7 @@ By the end of these activities, you will:
 
 ### Solution:
 
-Solutions to the challenges can be found [here](./Day5-Functions/activites.js).
+Solutions to the challenges can be found [here](./05.Day5-Functions/activites.js).
 
 ## Day 6 - Arrays
 
@@ -317,7 +317,7 @@ By the end of these activities, you will:
 
 ### Solution:
 
-Solutions to the challenges can be found [here](./Day6-Arrays/activites.js).
+Solutions to the challenges can be found [here](./06.Day6-Arrays/activites.js).
 
 ## Day 7 - Objects
 
@@ -362,7 +362,7 @@ By the end of these activities, you will:
 
 ### Solution:
 
-Solutions to the challenges can be found [here](./Day7-Objects/activites.js).
+Solutions to the challenges can be found [here](./07.Day7-Objects/activites.js).
 
 ## Day 8 - ES6+ Features
 
@@ -408,7 +408,7 @@ By the end of these activities, you will:
 
 ### Solution:
 
-Solutions to the challenges can be found [here](./Day8-ES6%2B%20Features/activites.js).
+Solutions to the challenges can be found [here](./08.Day8-ES6+%20Features/activites.js).
 
 ## Day 9 - DOM Manipulation
 
@@ -454,7 +454,7 @@ By the end of these activities, you will:
 
 ### Solution:
 
-Solutions to the challenges can be found [here](./Day9-DOM%20Manipulation/activities.js).
+Solutions to the challenges can be found [here](./09.Day9-DOM%20Manipulation/).
 
 ## Day 10: Event Handling
 
@@ -498,3 +498,7 @@ By the end of these activities, you will:
 - Understand and handle form events.
 - Implement event delegation to manage events on dynamically added elements.
 - Make web pages interactive by responding to various user actions.
+
+### Solution:
+
+Solutions to the challenges can be found [here](./10.Day10-Event%20Handling/).
