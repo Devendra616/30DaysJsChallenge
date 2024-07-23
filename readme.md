@@ -502,3 +502,51 @@ By the end of these activities, you will:
 ### Solution:
 
 Solutions to the challenges can be found [here](./10.Day10-Event%20Handling/).
+
+## Day 11: Promises and Async/Await
+
+### Tasks / Activities:
+
+#### Activity 1: Promises
+
+**Task 1:** ✅ Create a promise that resolves after a specified delay and log the result to the console.
+
+**Task 2:** ✅ Create a promise that rejects after a specified delay and log the error to the console.
+
+#### Activity 2: Async/Await
+
+**Task 3:** ✅ Use async/await to create a function that logs the result of a promise after a specified delay.
+
+**Task 4:** ✅ Use async/await to create a function that logs the error of a promise after a specified delay.
+
+#### Activity 3: Promise Chaining
+
+**Task 5:** ✅ Use promise chaining to create a function that logs the result of a promise after a specified delay.
+
+**Task 6:** ✅ Use promise chaining to create a function that logs the error of a promise after a specified delay.
+
+#### Activity 4: Fetching Data from API
+
+**Task 7:** ✅ Use the fetch API to get data from a public API and log the response data to the console.
+
+**Task 8:** ✅ Use async/await to get data from a public API and log the response data to the console.
+
+#### Activity 5: Concurrent Promises
+
+**Task 9:** ✅ Use Promise.all to wait for multiple promises to resolve and log all their values.
+
+**Task 10:** ✅ Use Promise.race to log the value of the first promise that resolves among multiple promises.
+
+### Achievement:
+
+By the end of these activities, you will:
+
+- Understand and create promises, including handling resolved and rejected states.
+- Chain multiple promises to perform sequential asynchronous operations.
+- Use async/await to handle asynchronous code more readably.
+- Fetch data from public APIs using both promises and async/await.
+- Manage multiple concurrent promises using Promise.all and Promise.race.
+
+### Solution:
+
+Solutions to the challenges can be found [here](./11.Day11-Promises%20and%20Async-Await/).
