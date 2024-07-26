@@ -596,3 +596,94 @@ By the end of these activities, you will:
 ### Solution:
 
 Solutions to the challenges can be found [here](./12.Day12-Error%20Handling/activites.js).
+
+## Day 13 - Modules
+
+### Tasks / Activities:
+
+#### Activity 1: Creating and Exporting Modules
+
+**Task 1:** ✅ Create a module that exports a function to add two numbers. Import and use this module in another script.
+
+**Task 2:** ✅ Create a module that exports an object representing a person with properties and method. Import and use this module in another script.
+
+#### Activity 2: Named and Default Exports
+
+**Task 3:** ✅ Create a module that exports multiple functions using named exports. Import and use these functions in another script.
+
+**Task 4:** ✅ Create a module that exports a single function using default export. Import and use this function in another script.
+
+#### Activity 3: Importing Entire Modules
+
+**Task 5:** ✅ Create a module that exports multiple constants and functions. Import the entire module as an object in another script and use its properties.
+
+#### Activity 4: Using Third Party Modules
+
+**Task 6:** ✅ Install a third party module (e.g., lodash) using npm. Import and use a function from this module in a script.
+
+**Task 7:** ✅ Install a third party module (e.g. axios) using npm. Import and use this module to make a network request in a script.
+
+#### Activity 5: Module Bundling (Optional)
+
+**Task 8:** ✅ Use a module bundler like webpack or Pracel to bundle multiple JS files into a single file. Write a script to demonstrate the bundling process.
+
+### Achievement:
+
+By the end of these activities, you will:
+
+- Create and export functions, objects, and constants using modules.
+- Import modules using named and default imports.
+- Use third-party modules installed via npm.
+- Understand the basics of module bundling (Optional).
+
+### Solution:
+
+Solutions to the challenges can be found [here](./13.Day13-Modules.js/).
+
+## Day 14 - Classes
+
+### Tasks / Activities:
+
+#### Activity 1: Class Declaration
+
+**Task 1:** ✅ Define a class `Person` with properties name and age, and a method to return a greeting message. Create an instance of the class and log the greeting message.
+
+**Task 2:** ✅ Add a method to the `Person` class that updates the age property and log the updated age.
+
+#### Activity 2: Class Inheritance
+
+**Task 3:** ✅ Define a class `Student` that extends the `Person` class. Add a property studentId and a method to return the student ID. Create an instance of the `Student` class and log the student ID.
+
+**Task 4:** ✅ Override the greeting method in the `Student` class to include the `Student ID` in the message. Log the overridden greeting message.
+
+#### Activity 3: Static Methods and Properties
+
+**Task 5:** ✅ Add a static method to the `Person` class that returns a generic greeting message. Call this static method without creating an instance of the class and log the message.
+
+**Task 6:** ✅ Add a static property to the `Student` class to keep track of the number of students.
+
+#### Activity 4: Getters and Setters
+
+**Task 7:** ✅ Add a getter method to the `Person` class to return the full name (assume a firstName and lastName property). Create an instance and log the full name using the getter.
+
+**Task 8:** ✅ Add a setter method to the `Person` class to update the name property (firstName and lastName). Update the name using the setter and log the updated full name.
+
+#### Activity 5: Private Fields (Optional)
+
+**Task 9:** ✅ Define a class `Account` with private fields for balance and a method to deposit and withdraw money. Ensure that the balance only be updated through these methods.
+
+**Task 10:** ✅ Create an instance of the `Account` class and test the deposit and withdraw methods, logging the balanace after each operation.
+
+### Achievement:
+
+By the end of these activities, you will:
+
+- Define and use classes with properties and methods.
+- Implement inheritance to extend classes.
+- Utilize static methods and properties.
+- Apply getters and setters for encapsulation.
+- Understand and use private fields in classes (optional).
+
+### Solution:
+
+Solutions to the challenges can be found [here](./14.Day14-Classes/activites.js).
