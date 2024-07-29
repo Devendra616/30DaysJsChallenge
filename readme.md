@@ -754,3 +754,50 @@ By the end of these activities, you will:
 ### Solution:
 
 Solutions to the challenges can be found [here](./15.Day15-Closures/activites.js).
+
+## Day 16 - Recursion
+
+### Tasks / Activities:
+
+#### Activity 1: Basic Recursion
+
+**Task 1:** ✅ Write a function that calculates the factorial of a number using recursion. Log the result to the console.
+
+**Task 2:** ✅ Write a recursive function to calculate the nth Fibonacci number. Log the result for a few test cases.
+
+#### Activity 2: Recursion with Arrays
+
+**Task 3:** ✅ Write a recursive function to find the sum of all elements in array. Log the result for few of test cases.
+
+**Task 4:** ✅ Write a recursive function to find the maximum element in an array. Log the result for few test cases.
+
+#### Activity 3: String Manipulation with Recursion
+
+**Task 5:** ✅ Write a recursive function to reverse a string. Log the result for few test cases.
+
+**Task 6:** ✅ Write a recursive function to check if a string is pallindrome. Log the result.
+
+#### Activity 4: Recursive search
+
+**Task 7:** ✅ Write a recursive function to perform a binary search on a sorted array. Log the index of the target element.
+
+**Task 8:** ✅ Write a recursive function to count the occurrences of a target element in an array. Log the result for few test cases.
+
+#### Activity 5: Tree Traversal (Optional)
+
+**Task 9:** ✅ Write a recursive function to perform an in-order traversal of a binary tree. Log the nodes as they are visited.
+
+**Task 10:** ✅ Write a recursive function to calculate the depth of a binary tree. Log the result for a few test cases.
+
+### Achievement:
+
+By the end of these activities, you will:
+
+- Understand and use recursion to solve problems.
+- Apply recursion to solve problems with arrays and strings.
+- Use recursion for searching and counting elements in arrays.
+- Perform tree traversal and calculate tree depth using recursion (optional).
+
+### Solution:
+
+Solutions to the challenges can be found [here](./16.Day16-Recursion/activites.js).
