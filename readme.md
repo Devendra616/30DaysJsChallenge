@@ -885,3 +885,132 @@ By the end of these activities, you will:
 ### Solution:
 
 Solutions to the challenges can be found [here](./18.Day18-Algorithms/activites.js).
+
+## Day 19 - Regular Expressions
+
+### Tasks / Activities:
+
+#### Activity 1: Regular Expressions
+
+**Task 1:** ✅ Write a regular expression to match a simple pattern (e.g., match all occurrences of the word "JavaScript" in a string). Log the matches.
+
+**Task 2:** ✅ Write a regular expression to match all digits in a string. Log the matches.
+
+#### Activity 2: Character Classes and Quantifiers
+
+**Task 3:** ✅ Write a regular expression to match all words in a string that start with a capital letter. Log the matches.
+
+**Task 4:** ✅ Write a regular expression to match all sequences of one or more digits in a string. Log the matches.
+
+#### Activity 3: Grouping and Capturing
+
+##### Grouping
+
+Grouping in regular expressions is done using parentheses `()`. It allows you to:
+
+1. **Apply Quantifiers**: You can apply quantifiers (like `*`, `+`, `{n}`) to the entire group.
+2. **Create Subpatterns**: Grouping helps in creating subpatterns within the main pattern.
+
+For example, in the regex `(abc)+`, the group `(abc)` can be repeated one or more times due to the `+` quantifier.
+
+##### Capturing
+
+Capturing is a feature of grouping that allows you to extract parts of the matched string. Each group in parentheses is assigned a number based on its position in the pattern, starting from 1.
+
+For example, in the regex `(\d{3})-(\d{2})-(\d{4})`:
+
+- `(\d{3})` captures the first three digits.
+- `(\d{2})` captures the next two digits.
+- `(\d{4})` captures the last four digits.
+
+##### Non-Capturing Groups
+
+If you want to group parts of the pattern without capturing, you can use (?:...). For example, (?:abc)+ will match one or more occurrences of abc but won’t capture them.
+
+**Task 5:** ✅ Write a regular expression to capture the area code, central office code, and line number from a US phone number format (e.g., (123) 456-7890). Log the captures.
+
+**Task 6:** ✅ Write a regular expression to capture the username and domain from an email address. Log the captures.
+
+#### Activity 4: Assertions and Boundaries
+
+#### Assertions
+
+Assertions are conditions that must be true for a match to occur, but they do not consume characters in the input string. There are two main types of assertions: lookaheads and lookbehinds.
+
+##### Lookaheads
+
+Lookaheads assert that a certain pattern must follow the current position in the string.
+
+- **Positive Lookahead**: `(?=...)`
+
+  - Example: `\d(?=px)` matches a digit only if it is followed by "px".
+  - `"5px"` matches `5`, but `"5pt"` does not match.
+
+- **Negative Lookahead**: `(?!...)`
+  - Example: `\d(?!px)` matches a digit only if it is not followed by "px".
+  - `"5pt"` matches `5`, but `"5px"` does not match.
+
+##### Lookbehinds
+
+Lookbehinds assert that a certain pattern must precede the current position in the string.
+
+- **Positive Lookbehind**: `(?<=...)`
+
+  - Example: `(?<=\$)\d+` matches digits only if they are preceded by a dollar sign.
+  - `"$100"` matches `100`, but `"100"` does not match.
+
+- **Negative Lookbehind**: `(?<!...)`
+  - Example: `(?<!\$)\d+` matches digits only if they are not preceded by a dollar sign.
+  - `"100"` matches `100`, but `"$100"` does not match.
+
+#### Boundaries
+
+Boundaries are used to match positions in the input string rather than actual characters. They help in defining the start or end of words or lines.
+
+##### Word Boundaries
+
+- **Word Boundary**: `\b`
+
+  - Matches the position between a word character (like a letter or digit) and a non-word character (like a space or punctuation).
+  - Example: `\bword\b` matches "word" as a whole word.
+  - `"word"` matches, but `"sword"` and `"words"` do not match.
+
+- **Non-Word Boundary**: `\B`
+  - Matches the position where `\b` does not match.
+  - Example: `\Bword\B` matches "word" only if it is part of a larger word.
+  - `"sword"` and `"words"` match, but `"word"` does not match.
+
+##### Line Boundaries
+
+- **Start of Line**: `^`
+
+  - Matches the position at the start of a line.
+  - Example: `^Hello` matches "Hello" only if it is at the beginning of a line.
+
+- **End of Line**: `$`
+  - Matches the position at the end of a line.
+  - Example: `world$` matches "world" only if it is at the end of a line.
+
+**Task 7:** ✅ Write a regular expression to match a word only if it is at the beginning of a string. Log the matches.
+
+**Task 8:** ✅ Write a regular expression to match a word only if it is at the end of a string. Log the matches.
+
+#### Activity 5: Practical Applications
+
+**Task 9:** ✅ Write a regular expression to validate a simple password (must include at least one uppercase letter, one lowercase letter, one digit, and one special character). Log whether the password is valid.
+
+**Task 10:** ✅ Write a regular expression to validate a URL. Log whether the URL is valid.
+
+### Achievement:
+
+By the end of these activities, you will:
+
+- Understand and create basic regular expressions.
+- Use character classes and quantifiers in regular expressions.
+- Implement grouping and capturing in regular expressions.
+- Apply assertions and boundaries in regular expressions.
+- Use regular expressions for practical applications like validating passwords and URLs.
+
+### Solution:
+
+Solutions to the challenges can be found [here](./19.Day19-RegularExpressions/activites.js).
