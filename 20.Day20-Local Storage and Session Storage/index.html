@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Local and Session Storage</title>
+  </head>
+  <body>
+    <h1>Local and Session Storage</h1>
+    <h2>Local Storage</h2>
+    <p>
+      LocalStorage is a type of web storage that allows you to store data in the
+      browser with no expiration date. This means the data will persist even
+      after the browser is closed and reopened. It’s useful for storing data
+      that you want to keep available across sessions.
+    </p>
+    <div>
+      <p id="info" style="background-color: burlywood">
+        Info from local storage
+      </p>
+      <button id="localStorage">Get Local Storage string</button>
+    </div>
+    <h2>Session Storage</h2>
+    <p>
+      SessionStorage is similar to LocalStorage but with a shorter lifespan. The
+      data is only available for the duration of the page session. This means
+      the data is cleared when the page session ends, such as when the browser
+      tab or window is closed.
+    </p>
+    <hr />
+    <h2>Activity 2: Using Local Storage</h2>
+    <div>
+      <form action="#" id="localStorageForm">
+        <input
+          type="text"
+          name="name"
+          id="name"
+          placeholder="Enter your name"
+          required
+        />
+        <input
+          type="email"
+          name="email"
+          id="email"
+          placeholder="Enter your email id"
+          required
+        />
+        <button type="submit">Save</button>
+      </form>
+      <div id="formData"></div>
+    </div>
+    <hr />
+    <h2>Activity 4: Using Session Storage</h2>
+    <div>
+      <form action="#" id="sessionStorageForm">
+        <input type="text" name="name" placeholder="Enter your name" required />
+        <input
+          type="email"
+          name="email"
+          placeholder="Enter your email id"
+          required
+        />
+        <button type="submit">Save</button>
+      </form>
+      <div id="sessionData"></div>
+    </div>
+    <hr />
+    <div>
+      <h2>Activity 5: Comparing LocalStorage and SessionStorage</h2>
+    </div>
+    <script src="./activities.js"></script>
+  </body>
+</html>
