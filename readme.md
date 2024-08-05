@@ -835,3 +835,53 @@ Solutions to the challenges can be found [here](./16.Day16-Recursion/activites.j
 **Task 9:** ✅ Implement a Graph class with methods to add vertices, add edges, and perform a breadth-first search (BFS).
 
 **Task 10:** ✅ Use the Graph class to represent a simple network and perform BFS to find the shortest path between two nodes.
+
+## Day 18 - Algorithms
+
+### Tasks / Activities:
+
+#### Activity 1: Sorting Algorithms
+
+**Task 1:** ✅ Implement the bubble sort algorithm to sort an array of numbers. Log the sorted array.
+
+**Task 2:** ✅ Implement the selection sort algorithm to sort an array of numbers. Log the sorted array.
+
+**Task 3:** ✅ Implement the quick sort algorithm to sort an array of numbers. Log the sorted array.
+
+#### Activity 2: Searching Algorithms
+
+**Task 4:** ✅ Implement the linear search algorithm to search for a target value in an array of numbers. Log the index of the target value.
+
+**Task 5:** ✅ Implement the binary search algorithm to search for a target value in an array of numbers. Log the index of the target value.
+
+#### Activity 3: String Algorithms
+
+**Task 6:** ✅ Write a function to count the occurrences of each character in a string. Log the character counts.
+
+**Task 7:** ✅ Write a function to find the longest substring without repeating characters in a string. Log the length of the substring.
+
+#### Activity 4: Array Algorithms
+
+**Task 8:** ✅ Write a function to rotate an array by k positions. Log the rotated array.
+
+**Task 9:** ✅ Write a function to merge two sorted arrays into one sorted array. Log the merged array.
+
+#### Activity 5: Dynamic Programming (Optional)
+
+**Task 10:** ✅ Task 10: Write a function to solve the Fibonacci sequence using dynamic programming. Log the Fibonacci numbers.
+
+**Task 11:** ✅ Task 11: Write a function to solve the knapsack problem using dynamic programming. Log the maximum value that can be obtained.
+
+### Achievement:
+
+By the end of these activities, you will:
+
+- Implement and understand common sorting algorithms.
+- Implement and understand common searching algorithms.
+- Solve string manipulation problems using algorithms.
+- Perform array operations using algorithms.
+- Apply dynamic programming to solve complex problems (optional).
+
+### Solution:
+
+Solutions to the challenges can be found [here](./18.Day18-Algorithms/activites.js).
