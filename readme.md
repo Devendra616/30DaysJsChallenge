@@ -1153,3 +1153,44 @@ By the end of these activities, you will:
 ### Solution:
 
 Solutions to the challenges can be found [here](./21.Day21-LeetCode%20Easy/activites.js).
+
+## Day 22: LeetCode Medium
+
+### Tasks / Activities:
+
+#### Activity 1: Add Two Numbers
+
+**Task 1:** ✅ Write a function that takes two non-empty linked lists representing two non-negative integer. The digits are stored in reverse order, and each node contains a single digit. Add the two numbers and return the sum as a linked list. Create a few test cases with linked lists and log the sum as a linked list.
+
+#### Activity 2: Longest Substring Without Repeating Characters
+
+**Task 2:** ✅ Solve the "Longest Substring Without Repeating Characters" problem on LeetCode.Write a function that takes a string and returns the length of the longest substring without repeating characters. Log the length for a few test cases, including edge cases.
+
+#### Activity 3: Container With Most Water
+
+**Task 3:** ✅ Solve the "Container With Most Water" problem on LeetCode.
+Write a function that takes an array of non-negative integers where each integer represents the height of a line drawn at each point. Find two lines that together with the x-axis form a container, such that the container holds the most water. Log the maximum amount of water for a few test cases.
+
+#### Activity 4: 3 Sum
+
+**Task 4:** ✅ Solve the 3Sum problem on Leetcode.
+Write a function that takes an array of integers and finds all unique triplets in the array which gives the sum of zero. Log the triplets for a few test cases, including edge cases.
+
+#### Activity 5: Group Anagrams
+
+**Task 5:** ✅ Solve the Group Anagrams Problem on Leetcode.
+Write a function that takes an array of strings and groups anagrams together.
+Log the grouped anagrams for a few test cases.
+
+### Achievements:
+
+By the end of these activities, you will:
+
+- Solve common medium-level LeetCode problems.
+- Apply advanced problem-solving skills to implement algorithms.
+- Understand and handle edge cases in more complex algorithmic solutions.
+- Gain confidence in solving medium-level coding challenges on LeetCode.
+
+### Solution:
+
+Solutions to the challenges can be found [here](./22.Day22-LeetCode%20Medium/activites.js).
