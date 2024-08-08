@@ -1194,3 +1194,52 @@ By the end of these activities, you will:
 ### Solution:
 
 Solutions to the challenges can be found [here](./22.Day22-LeetCode%20Medium/activites.js).
+
+## Day 23: LeetCode Hard
+
+### Tasks / Activities:
+
+#### Activity 1: Median of two Sorted Arrays
+
+**Task 1:** ✅ Solve the "Median of Two Sorted Arrays" problem on LeetCode.
+Write a function that takes two sorted arrays of integers and returns the median of the two sorted arrays. Log the median for a few test cases, including edge cases.
+
+#### Activity 2: Merge k Sorted Lists
+
+**Task 2:** ✅ Solve the "Merge k Sorted Lists" problem on LeetCode.
+Write a function that takes an array of k linked lists, each linked list is sorted in ascending order, and merges all the Linked lists into one sorted linked list.
+Create a few test cases with linked lists and log the merged list.
+
+#### Activity 3: Activity 3: Trapping Rain Water
+
+**Task 3:** ✅ Solve the Trapping Rain Water Problem on Leetcode.
+Write a function that takes an array of non-negative integers representing an elevation map where the width of each bar is 1, and computes how much water it can trap after raining
+Log the amount of trapped water for a few test cases.
+
+**YouTube Video:** https://youtu.be/UZG3-vZlFM4
+
+#### Activity 4: N-Queens
+
+**Task 4:** ✅ Solve the N-Queens problem on Leetcode.
+Write a function that places in queens on an nxn chessboard such that no two queens attack each other, and returns all distinct solutions to the in queens puzzle.
+Log the distinct solutions for a few test cases
+
+#### Activity 5: Word Ladder
+
+**Task 5:** ✅ Solve the Word Ladder problem on Leetcode.
+Write a function that takes a begin word, an end word, and a dictionary of words, and finds the length of the shortest transformation sequence
+from the begin word to the end word, such that only one letter can be changed at a time and each transformed word must exist in the word list.
+Log the length of the shortest transformation sequence for a few test cases.
+
+### Achievements:
+
+By the end of these activities, you will:
+
+- Solve complex LeetCode problems.
+- Apply advance problem-solving skills to implement efficient algorithms.
+- Understand and handle edge cases in hard algorithmic solutions.
+- Gain confidence in solving Hard-level coding challenges on LeetCode.
+
+### Solution:
+
+Solutions to the challenges can be found [here](./23.Day23-LeetCode%20Hard/activites.js).
