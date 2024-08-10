@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather Dashboard</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Weather Dashboard</h1>
+    </header>
+    <main>
+      <div class="search-container">
+        <input type="search" placeholder="Enter a city" />
+        <button id="search-btn">Search</button>
+      </div>
+      <div class="weather-container">
+        <div class="left-section">
+          <div class="weather-icon">
+            <img src="./assets/images/clear-sky.png" alt="Weather icon" />
+          </div>
+          <div class="weather-details">
+            <div class="temperature">26°C</div>
+            <div class="sub-details">
+              <div class="precipitation">Precipitation: 7%</div>
+              <div class="humidity">Humidity: 77%</div>
+              <div class="wind">Wind: 8 km/h</div>
+            </div>
+          </div>
+        </div>
+        <div class="right-section">
+          <h3>Current Weather</h3>
+          <div class="current-location">Lucknow</div>
+          <div class="current-time">Friday, 11:00 am</div>
+          <div class="condition">Cloudy</div>
+        </div>
+      </div>
+      <div class="forecast-container">
+        <h2>Three Days Forecast</h2>
+        <section class="forecast">
+          <div class="card" id="card-1">
+            <h3>Monday</h3>
+            <img
+              src="./assets/images/clear-sky.png"
+              alt="Weather Icon"
+              width="50px"
+              height="50px"
+            />
+            <div class="temp">
+              <div class="temp_high">28°C</div>
+              <div class="temp_low">18°C</div>
+            </div>
+            <div class="precipitation">Precipitation: 7%</div>
+            <div class="humidity">Humidity: 77%</div>
+            <div class="wind">Wind: 8 km/h</div>
+            <p>Summary</p>
+          </div>
+          <div class="card" id="card-2">
+            <h3>Monday</h3>
+            <img
+              src="./assets/images/clear-sky.png"
+              alt="Weather Icon"
+              width="50px"
+              height="50px"
+            />
+            <div class="temp">
+              <div class="temp_high">28°C</div>
+              <div class="temp_low">18°C</div>
+            </div>
+            <div class="precipitation">Precipitation: 7%</div>
+            <div class="humidity">Humidity: 77%</div>
+            <div class="wind">Wind: 8 km/h</div>
+            <p>Summary</p>
+          </div>
+          <div class="card" id="card-3">
+            <h3>Monday</h3>
+            <img
+              src="./assets/images/clear-sky.png"
+              alt="Weather Icon"
+              width="50px"
+              height="50px"
+            />
+            <div class="temp">
+              <div class="temp_high">28°C</div>
+              <div class="temp_low">18°C</div>
+            </div>
+            <div class="precipitation">Precipitation: 7%</div>
+            <div class="humidity">Humidity: 77%</div>
+            <div class="wind">Wind: 8 km/h</div>
+            <p>Summary</p>
+          </div>
+        </section>
+      </div>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
