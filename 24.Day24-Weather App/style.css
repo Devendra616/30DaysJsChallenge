@@ -65,14 +65,38 @@ input[type="search"] {
     margin-bottom: 20px; /* Add spacing below the icon */
 }
 
+.weather-icon img {
+    transform: scale(0.8); /* Start slightly zoomed out */
+    transition: transform 0.5s ease-in-out;
+  }
   
+  .weather-container.loaded .weather-icon img {
+    transform: scale(1); /* Zoom in on load */
+    animation: fadeIn 0.5s ease-in-out;
+  }  
+
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
    
 .weather-details {
 display: flex;
 flex-direction: row;
 align-items: flex-start;
 margin-left: 20px;
+opacity: 0; /* Start hidden */
+transition: opacity 0.5s ease-in-out;
 }
+
+
+.weather-container.loaded .weather-details {
+    opacity: 1; /* Appear after loading */
+  }
     
 .precipitation,
 .humidity,
@@ -99,14 +123,17 @@ margin-left: 20px;
 }
         
         .weather-icon img {
-        width: 50px;
-        height: 50px;
+        width: 100px;
+        height: 100px;
         }
 
         .temperature {
             font-size: 2.5rem;
             font-weight: bold;
-            }
+            
+        }
+               
+       
         
             .sub-details {
                 display: flex;
@@ -146,10 +173,17 @@ margin-left: 20px;
 .card {
     text-align: center;
     background-color: #ffffff47;
-    border-radius: 5px;
+    border-radius: 8px;
     padding: 20px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
 }
+
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0px   
+   5px 10px rgba(0, 0, 0, 0.2);
+  }
 
 .temp {
     display: flex;

@@ -35,6 +35,11 @@ async function getWeatherData(city) {
       ".weather-container .weather-icon img"
     ).src = `${result.current.condition.icon}`;
 
+    const weatherContainer = document.querySelector(".weather-container");
+    setTimeout(() => {
+      weatherContainer.classList.add("loaded");
+    }, 100);
+
     return result;
   } catch (err) {}
 }
@@ -122,6 +127,10 @@ async function getForecast(city) {
       "🚀 ~ result.forecast.forecastday.forEach ~ weatherForecastData:",
       weatherForecastData
     );
+    const forecastContainer = document.querySelector(".forecast-container");
+    setTimeout(() => {
+      forecastContainer.classList.add("loaded");
+    }, 100);
   } catch (err) {
     console.log(err);
   }
