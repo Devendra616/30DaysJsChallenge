@@ -1,0 +1,95 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: cursive;
+   
+}
+
+body {
+    background: linear-gradient(to bottom left, #f0f0f0, #d9afdb);
+  }
+
+.centered-element {
+    width: 80%; /* Adjust width as needed */
+    margin: 10px auto;
+  }
+
+#logo {
+    position: absolute;
+    top: 10px;
+    left: 20px;
+    width: 100px;
+    height: 100px;
+    padding: 10px;
+    border-radius: 5px;
+    
+}
+
+#chat-window {
+    height: 300px;
+    border: 1px solid #ccc;
+    overflow-y: scroll;
+    padding: 10px;
+}
+
+.input-area {
+    display: flex;
+    margin-top: 10px;
+}
+
+#message-input {
+    flex-grow: 1;
+    padding: 5px;
+    border: 1px solid #ccc;
+}
+
+#send-button {
+    padding: 5px 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.my-message {
+    text-align: right;
+    background-color: #e0ffff;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.other-message {
+    text-align: left;
+    background-color: #f0f0f0;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.message {
+    margin-bottom: 10px;
+    animation: fadeIn 0.5s ease-in-out;
+}
+
+#connection-status {
+    padding: 2px 10px
+}
+
+.online {
+    background-color: #247e18;
+    color: white;
+}
+
+.offline {
+    background-color: #ff0000;
+    color: white;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}

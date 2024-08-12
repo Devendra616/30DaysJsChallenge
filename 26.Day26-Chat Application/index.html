@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gapshup</title>
+    <link rel="stylesheet" href="./sytle.css" />
+    <img src="./assets/logo.png" alt="Gapshup Logo" id="logo" />
+  </head>
+  <body>
+    <div id="chat-window" class="centered-element"></div>
+    <div class="input-area centered-element">
+      <input
+        type="text"
+        id="username-input"
+        placeholder="Enter your username"
+      />
+      <button id="join-button">Join Chat</button>
+
+      <input type="text" id="message-input" placeholder="Type your message" />
+      <button id="send-button">Send</button>
+    </div>
+    <button id="disconnect-button" disabled>Disconnect</button>
+    <span id="connection-status"></span>
+    <script src="./script.js"></script>
+  </body>
+</html>
