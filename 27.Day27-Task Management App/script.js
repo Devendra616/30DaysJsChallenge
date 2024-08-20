@@ -1,3 +1,4 @@
+const taskKey = "lsTasks";
 const taskContainer = document.querySelector(".task-container");
 const addTaskButton = document.querySelector(".add-task-button");
 const modal = document.querySelector(".modal");
@@ -7,6 +8,14 @@ const taskForm = document.querySelector(".task-form");
 const themeToggler = document.querySelector(".theme-toggler");
 lockIcon = document.querySelector(".theme-toggler .icon i");
 const body = document.body;
+
+let editingTaskIndex;
+let tasks = [];
+if (localStorage.getItem(taskKey)) {
+  tasks = JSON.parse(localStorage.getItem(taskKey));
+}
+
+checkEmptyTasks();
 
 let isDarkMode = false;
 
@@ -18,8 +27,6 @@ if (storedTheme === "dark") {
 } else if (storedTheme === "light") {
   themeToggler.classList.add("active");
 }
-
-setTheme();
 
 themeToggler.addEventListener("click", () => {
   themeToggler.classList.toggle("active");
@@ -41,10 +48,8 @@ function setTheme() {
   }
 }
 
-let editingTaskIndex;
-const taskKey = "lsTasks";
-let tasks = JSON.parse(localStorage.getItem(taskKey)) || [];
-checkEmptyTasks();
+setTheme();
+displayTasks();
 
 function checkEmptyTasks() {
   if (!tasks || tasks.length === 0) {
@@ -84,7 +89,6 @@ function displayTasks() {
 
   try {
     const storedTasks = localStorage.getItem(taskKey);
-    console.log("🚀 ~ displayTasks ~ storedTasks:", storedTasks);
     if (storedTasks) {
       tasks = JSON.parse(storedTasks);
 
@@ -96,10 +100,15 @@ function displayTasks() {
         checkbox.type = "checkbox";
         checkbox.classList.add("complete-checkbox");
         checkbox.checked = task.completed;
+        if (task.completed) {
+          taskElement.classList.add("completed");
+        }
 
         checkbox.addEventListener("change", () => {
           task.completed = checkbox.checked;
           taskElement.classList.toggle("completed", task.completed);
+
+          localStorage.setItem(taskKey, JSON.stringify(tasks));
         });
 
         const taskContent = document.createElement("div");
