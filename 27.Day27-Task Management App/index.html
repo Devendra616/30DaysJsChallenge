@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Task Manager</title>
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Task Manager</h1>
+    <div class="theme-toggler">
+      <div class="icon">
+        <i class="fa-solid fa-moon"></i>
+      </div>
+    </div>
+    <div class="task-container"></div>
+    <button class="add-task-button">
+      <img src="./assets/images/plus-icon.png" alt="Add Task" />
+    </button>
+    <div class="modal">
+      <div class="modal-content">
+        <span class="close"> &times;</span>
+
+        <form class="task-form">
+          <input type="text" placeholder="Title" name="title" />
+          <textarea placeholder="Description" name="description"></textarea>
+          <input type="date" name="dueDate" />
+          <button type="submit">Add</button>
+        </form>
+      </div>
+    </div>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
