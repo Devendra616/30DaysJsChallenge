@@ -1,0 +1,72 @@
+[
+  {
+    "id": 1,
+    "name": "Wireless Earbuds",
+    "price": 49.99,
+    "description": "High-quality wireless earbuds with noise cancellation.",
+    "imageUrl": "https://images.unsplash.com/photo-1627989580309-bfaf3e58af6f"
+  },
+  {
+    "id": 2,
+    "name": "Smartphone",
+    "price": 699.99,
+    "description": "Latest model smartphone with advanced features.",
+    "imageUrl": "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9"
+  },
+  {
+    "id": 3,
+    "name": "Laptop",
+    "price": 999.99,
+    "description": "Powerful laptop with high-resolution display.",
+    "imageUrl": "https://images.unsplash.com/photo-1517336714731-489689fd1ca8"
+  },
+  {
+    "id": 4,
+    "name": "Bluetooth Speaker",
+    "price": 29.99,
+    "description": "Portable Bluetooth speaker with excellent sound quality.",
+    "imageUrl": "https://images.unsplash.com/photo-1589256469067-ea99122bbdc4"
+  },
+  {
+    "id": 6,
+    "name": "Gaming Console",
+    "price": 399.99,
+    "description": "Next-gen gaming console with immersive graphics.",
+    "imageUrl": "https://plus.unsplash.com/premium_photo-1687672031180-85bcfa42e3a4"
+  },
+  {
+    "id": 7,
+    "name": "4K TV",
+    "price": 799.99,
+    "description": "Ultra HD 4K TV with vibrant colors and smart features.",
+    "imageUrl": "https://plus.unsplash.com/premium_photo-1683141392308-aaa39d916686"
+  },
+  {
+    "id": 8,
+    "name": "Digital Camera",
+    "price": 499.99,
+    "description": "High-resolution digital camera with multiple lenses.",
+    "imageUrl": "https://images.unsplash.com/photo-1590292339438-5fc3be7fca9d"
+  },
+  {
+    "id": "108",
+    "name": "Tablet",
+    "price": "329.99",
+    "description": "Lightweight tablet with a high-resolution display and long battery life.",
+    "imageUrl": "https://images.unsplash.com/photo-1610274672835-65a79c852f58"
+},
+{
+    "id": "109",
+    "name": "Fitness Tracker",
+    "price": "99.99",
+    "description": "Waterproof fitness tracker with heart rate monitoring and sleep tracking.",
+    "imageUrl": "https://images.unsplash.com/photo-1665860455423-166cab57c383"
+},
+{
+    "id": "110",
+    "name": "Drone",
+    "price": "299.99",
+    "description": "High-performance drone with 4K camera and GPS navigation.",
+    "imageUrl": "https://images.unsplash.com/photo-1456615913800-c33540eac399"
+}
+]

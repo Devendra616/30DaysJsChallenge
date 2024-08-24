@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>ClickNBuy - Your One-Stop Shop</title>
+    <link rel="stylesheet" href="./assets/style.css" />
+    <link rel="stylesheet" href="./assets/cart.css" />
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <img src="./assets/images/logo.jpg" alt="ClickNBuy Logo" />
+        <h1>ClickNBuy</h1>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="./index.html">Home</a></li>
+          <li><a href="./index.html">Products</a></li>
+          <li><a href="#">About Us</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+      <div class="cart">
+        <a href="./shopping-cart.html">
+          <i class="fas fa-shopping-cart"></i>
+          <span class="cart-count">0</span>
+        </a>
+      </div>
+    </header>
+    <main>
+      <section class="shopping-cart">
+        <h2>Shopping Cart</h2>
+        <ul class="cart-items"></ul>
+        <div class="cart-total">
+          <p>Total: <span id="cart-total">₹0</span></p>
+          <button class="checkout-button">Checkout</button>
+        </div>
+      </section>
+      <section class="checkout" style="display: none">
+        <h2>Checkout</h2>
+        <form class="checkout-form">
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" required />
+          <label for="contact">Contact No:</label>
+          <input
+            type="number"
+            id="contact"
+            name="contact"
+            maxlength="10"
+            required
+          />
+
+          <label for="address">Address:</label>
+          <textarea id="address" name="address" required></textarea>
+
+          <button type="submit">Place Order</button>
+        </form>
+      </section>
+    </main>
+    <div id="alert-container" style="display: none">
+      <div class="alert">
+        <p>Your order has been placed successfully!</p>
+        <button class="close-alert">OK</button>
+      </div>
+    </div>
+    <footer>
+      <p>&copy; 2024 ClickNBuy. All Rights Reserved.</p>
+    </footer>
+    <script
+      src="https://kit.fontawesome.com/e5f52daf94.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./assets/cart.js"></script>
+  </body>
+</html>
