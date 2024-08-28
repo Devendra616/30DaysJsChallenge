@@ -1,0 +1,96 @@
+:root {
+    --primary-orange: #FF8C00;
+    --primary-teal: #008080;
+    --primary-purple: #800080;
+    --secondary-yellow: #FFFF00;
+    --secondary-pink: #FFB6C1;
+    --secondary-blue: #0000FF;
+    --white: #fff;
+}
+
+body {
+    background-color: var(--primary-teal);
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: var(--white);
+}
+
+header {
+    background-color: var(--primary-orange);
+    padding: 10px;
+}
+header h1 {
+    color: var(--white);
+    margin-left: 60px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 10px;
+    float: right;
+}
+
+nav button {
+    background-color: var(--white);
+    border: 1px solid var(--white);
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+    color: var(--primary-teal);
+}
+
+nav button:hover {
+    background-color: var(--primary-teal);
+    color: var(--white);
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.auth-form {    
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    max-width: 400px; 
+    margin: 0 auto; /* Center the form horizontally */
+    padding: 20px;
+    border: 1px solid var(--secondary-blue); /* Add a border for a more defined look */
+    border-radius: 5px;
+}
+
+.auth-form form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.auth-form form.hidden {
+    display: none;
+}
+
+.toggle-form {
+    margin-top: 10px;
+    text-align: right;
+}
+
+.toggle-form a {
+    color: var( --secondary-yellow);
+}
+
+.auth-form input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.auth-form button {
+    background-color: var(--primary-purple);
+    color: var(--white);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}

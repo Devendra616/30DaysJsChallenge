@@ -1515,4 +1515,66 @@ Solutions to the challenges can be found [here](./28.Day28-Ecommerce%20Website/i
 
 ![Ecommerce Website](./28.Day28-Ecommerce%20Website/Screenshot3.png)
 
-[Video Preview](./28.Day28-Ecommerce%20Website/ecommerce%20website%20.mp4)
+[![Demo](https://img.youtube.com/vi/ayLUgwDVG4Y/hqdefault.jpg)](https://youtu.be/ayLUgwDVG4Y?t=35s "Ecommerce Website Demo")
+
+### Day 29 - Social Media Dashboard
+
+#### Activity 1: Setting Up the Project
+
+**Task 1:** ✅ Initialize a new project directory and set up the basic HTML structure for the social media dashboard.
+
+**Task 2:** ✅ Add a basic CSS file to style the social media dashboard, including a container for posts and a form for creating new posts.
+
+#### Activity 2: User Authentication
+
+**Task 3:** ✅ Create a simple login form that collects a username and password. Style the form using CSS.
+
+**Task 4:** ✅ Write a script to handle user login and store the logged-in user's information in localStorage or sessionStorage.
+
+#### Activity 3: Creating Posts
+
+**Task 5:** ✅ Add a form to the HTML structure with fields for entering post details (e.g., text, image). Style the form using CSS.
+
+**Task 6:** ✅ Write a script to handle form submission, creating a new post object and adding it to an array of posts. Display the new post in the feed.
+
+#### Activity 4: Displaying Posts
+
+**Task 7:** ✅ Write a function to iterate over the array of posts and display each post in the feed. Include post details like text, image, username, and timestamp.
+
+**Task 8:** ✅ Style the post feed using CSS to make it visually appealing.
+
+#### Activity 5: Post Interactions
+
+**Task 9:** ✅ Add "Like" and "Comment" buttons to each post. Write functions to handle liking a post and adding comments to a post.
+
+**Task 10:** ✅ Display the number of likes and comments for each post. Update the display when users interact with the posts.
+
+#### Activity 5: Enhancing the UI
+
+**Task 9:** ✅ Add CSS styles to differentiate posts by different users. Display the logged-in user's posts with a distinct style.
+
+**Task 10:** ✅ Add CSS animations or transitions to make the social media dashboard more interactive and visually appealing.
+
+### Achievements:
+
+By the end of these activities, you will:
+
+- Set up a basic project structure with HTML and CSS.
+- Implement user authentication and store user information.
+- Create and display posts with details like text, image, username timestamp.
+- Hanlde post interactions like liking and commenting and update the display accordingly.
+- Enhance the user interface with CSS styles and animations to make the social media dashboard visually appealing and user-friendly.
+
+### Solution:
+
+Solutions to the challenge can be found [here](./29.Day29-Social%20Media%20Dashboard/login.html).
+
+### Screenshots
+
+![Social Media Dashboard](./29.Day29-Social%20Media%20Dashboard/assets/screenshot1.png)
+
+![Social Media Dashboard](./29.Day29-Social%20Media%20Dashboard/assets/screenshot2.png)
+
+![Social Media Dashboard](./29.Day29-Social%20Media%20Dashboard/assets/screenshot3.png)
+
+[![Demo Video](./29.Day29-Social%20Media%20Dashboard/assets/screenshot3.png)](https://youtu.be/PLkZ_CIPEFQ "Social Media Dashboard Demo")

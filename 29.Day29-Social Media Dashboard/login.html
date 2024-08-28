@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Login</title>
+    <link rel="stylesheet" href="./assets/css/login.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Desi Vibe</h1>
+    </header>
+
+    <section class="auth-form">
+      <h2>Login/Signup</h2>
+      <form id="login-form">
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required />
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required />
+
+        <button type="submit">Login</button>
+        <span class="toggle-form">Not a member? <a href="#">Sign Up</a></span>
+      </form>
+      <form id="signup-form" class="hidden">
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username" required />
+        <label for="sEmail">Email:</label>
+        <input type="email" id="sEmail" name="sEmail" required />
+        <label for="sPassword">Password:</label>
+        <input type="password" id="sPassword" name="sPassword" required />
+        <label for="cnfSPassword">Confirm Password:</label>
+        <input type="password" id="cnfSPassword" name="cnfSPassword" required />
+
+        <button type="submit">Sign Up</button>
+        <span class="toggle-form">Already a member? <a href="#">Login</a></span>
+      </form>
+    </section>
+    <script src="./assets/js/login.js"></script>
+  </body>
+</html>

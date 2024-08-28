@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Desi Vibe - Dashboard</title>
+
+    <link rel="stylesheet" href="./assets/css/dashboard.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Desi Vibe</h1>
+    </header>
+    <nav>
+      <ul>
+        <li>
+          <button
+            id="logout-button"
+            onclick="return confirm('Are you sure you want to logout?')"
+          >
+            Logout <i class="fas fa-sign-out-alt"></i>
+          </button>
+        </li>
+      </ul>
+    </nav>
+    <main>
+      <section class="new-post-form">
+        <h2>Create a New Post</h2>
+        <form>
+          <textarea
+            placeholder="Write your post here"
+            preserveSpaces
+          ></textarea>
+          <input type="file" id="post-image" />
+          <button type="submit">Post</button>
+        </form>
+      </section>
+      <section class="post-feed">
+        <div class="post">
+          <div class="post-content"></div>
+          <div class="post-actions">
+            <button class="like-button">Like</button>
+            <button class="comment-button">Comment</button>
+            <span class="like-count">0</span>
+            <span class="comment-count">0</span>
+          </div>
+        </div>
+      </section>
+    </main>
+    <script
+      src="https://kit.fontawesome.com/e5f52daf94.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./assets/js/dashboard.js"></script>
+  </body>
+</html>
