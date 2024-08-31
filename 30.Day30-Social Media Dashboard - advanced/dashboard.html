@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Desi Vibe - Dashboard</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="./assets/css/dashboard.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Desi Vibe</h1>
+    </header>
+    <div class="navbar">
+      <a class="active" href="./dashboard.html"
+        >Home <i class="fa fa-fw fa-home"></i>
+      </a>
+      <a href="./profile.html">Profile <i class="fa fa-fw fa-user"></i></a>
+      <a
+        href="#"
+        id="logout-button"
+        onclick="return confirm('Are you sure you want to logout?')"
+        >Logout <i class="fas fa-sign-out-alt"></i>
+      </a>
+    </div>
+
+    <div id="dashboard-container">
+      <aside id="notifications-sidebar">
+        <h2>Notifications</h2>
+        <ul id="notification-list">
+          <!-- Notifications will be dynamically populated here -->
+        </ul>
+      </aside>
+
+      <main id="main-content">
+        <section class="new-post-form">
+          <h2>Create a New Post</h2>
+          <form>
+            <textarea
+              placeholder="Write your post here"
+              preserveSpaces
+            ></textarea>
+            <input type="file" id="post-image" />
+            <button type="submit">Post</button>
+          </form>
+        </section>
+        <section class="post-feed">
+          <div class="post">
+            <div class="post-content"></div>
+            <div class="post-actions">
+              <button class="like-button">Like</button>
+              <button class="comment-button">Comment</button>
+              <span class="like-count">0</span>
+              <span class="comment-count">0</span>
+            </div>
+          </div>
+        </section>
+      </main>
+    </div>
+    <script
+      src="https://kit.fontawesome.com/e5f52daf94.js"
+      crossorigin="anonymous"
+    ></script>
+    <script type="module" src="./assets/js/dashboard.js"></script>
+  </body>
+</html>

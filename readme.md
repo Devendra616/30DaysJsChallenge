@@ -1515,9 +1515,9 @@ Solutions to the challenges can be found [here](./28.Day28-Ecommerce%20Website/i
 
 ![Ecommerce Website](./28.Day28-Ecommerce%20Website/Screenshot3.png)
 
-[![Demo](https://img.youtube.com/vi/ayLUgwDVG4Y/hqdefault.jpg)](https://youtu.be/ayLUgwDVG4Y?t=35s "Ecommerce Website Demo")
+#### Youtube Video : https://youtu.be/ayLUgwDVG4Y?t=35s
 
-### Day 29 - Social Media Dashboard
+### Day 29 - Project 6 Social Media Dashboard
 
 #### Activity 1: Setting Up the Project
 
@@ -1577,4 +1577,76 @@ Solutions to the challenge can be found [here](./29.Day29-Social%20Media%20Dashb
 
 ![Social Media Dashboard](./29.Day29-Social%20Media%20Dashboard/assets/screenshot3.png)
 
-[![Demo Video](./29.Day29-Social%20Media%20Dashboard/assets/screenshot3.png)](https://youtu.be/PLkZ_CIPEFQ "Social Media Dashboard Demo")
+#### Youtube Video : https://youtu.be/PLkZ_CIPEFQ
+
+### Day 29 - Project 7 Social Media Dashboard with Full Features
+
+#### Activity 1: Setting Up the Project
+
+**Task 1:** ✅ Initialize a new project directory and set up the basic HTML structure for the final project.
+
+**Task 2:** ✅ Add a basic CSS file to style the social media dashboard, including containers for posts, a sidebar for user information and a form for creating new posts.
+
+#### Activity 2: User Authentication
+
+**Task 3:** ✅ Create a login and registration form that collects a username, email, and password.Style the form using CSS.
+
+**Task 4:** ✅ Write a script to handle user registration and login, storing user information in localStorage or sessionStorage. Include basic validations for input fields.
+
+#### Activity 3: User Profile
+
+**Task 5:** ✅ Create a user profile page that displays logged-in user's information, including username, email, and profile picture. Allow users to update their profile information.
+
+**Task 6:** ✅ Write a script that handle the updating the user profile information and saving the changes to localStorage or sessionStorage.
+
+#### Activity 4: Creating and Displaying Posts
+
+**Task 7:** ✅ Add a form to the HTML structure with fields for entering post details (e.g., text, image). Style the form using CSS.
+
+**Task 8:** ✅ Write a script to handle form submission, creating a new post object and adding it to an array of posts. Display the new post in the feed including the username of the logged-in user.
+
+#### Activity 5: Post Interactions
+
+**Task 9:** ✅ Add "Like" and "Comment" buttons to each post. Write functions to handle liking a post and adding comments to a post.
+
+**Task 10:** ✅ Display the number of likes and comments for each post. Update the display when users interact with the posts.
+
+#### Activity 6: Notifications
+
+**Task 11:** ✅ Add a notification system that alerts users when they receive a new like or comment on a post. Display notifications in a sidebar.
+
+**Task 12:** ✅ Write a script to handle generating and displaying notifications based on user interactions.
+
+#### Activity 7: Enhancing the UI
+
+**Task 13:** ✅ Add CSS styles to differentiate posts by different users. Display the logged-in user's posts with a distinct style.
+
+**Task 14:** ✅ Add CSS animations or transitions to make the social media dashboard more interactive and visually appealing.
+
+### Achievements:
+
+By the end of these activities, you will:
+
+- Set up a comprehensive project structure with HTML and CSS.
+- Implement user authentication, including registration and login with input validation.
+- Create and update user profile, displaying user information and allowing updates.
+- Handle creating and displaying posts with user specific details.
+- Implement post interactions like liking and commenting and real-time updates.
+- Create a notification system that alerts users of new interations on their posts.
+- Enhance the user interface with CSS styles and animations to create a visually appealing and interactive social media dashboard.
+
+### Solution:
+
+Solutions to the challenge can be found [here](./30.Day30-Social%20Media%20Dashboard%20-%20advanced/login.html).
+
+### Screenshots
+
+![Social Media Dashboard](./30.Day30-Social%20Media%20Dashboard%20-%20advanced/assets/screenshot1.png)
+
+![My Profile Page](./30.Day30-Social%20Media%20Dashboard%20-%20advanced/assets/screenshot2.png)
+
+![Notifications](./30.Day30-Social%20Media%20Dashboard%20-%20advanced/assets/screenshot3.png)
+
+#### Youtube Video : https://youtu.be/HkSWN7vdX0g
+
+## Instead of attaching event listeners to every like or comment button individually, attach a single event listener to a parent element and use event delegation to handle clicks on child elements. This reduces the number of event listeners in the DOM, improving performance.

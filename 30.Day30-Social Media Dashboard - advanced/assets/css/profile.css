@@ -1,0 +1,77 @@
+#profile-content {
+    display: flex;
+    justify-content: space-between;
+    padding: 2em;
+    max-width: 1200px;
+    margin: auto;
+}
+
+#profile-info {
+    width: 25%;
+    background-color: var(--primary-teal);;
+    padding: 1em;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-right: 2em;
+}
+
+#profile-info h2 {
+    font-size: 1.5em;
+    margin-bottom: 1em;
+}
+
+#profile-info label {
+    display: block;
+    margin-bottom: 0.5em;
+}
+
+#profile-info input {
+    width: 90%;
+    padding: 0.5em;
+    margin-bottom: 1em;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+#profile-info button {
+    background-color: #007bff;
+    color: white;
+    padding: 0.5em 1em;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#profile-info button:hover {
+    background-color: var(--secondary-blue);
+}
+
+.post-feed {
+    width: 75%;    
+    padding: 2em;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.post-feed h2 {
+    font-size: 1.5em;
+    margin-bottom: 1em;
+}
+
+.post-actions{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.post-actions button { 
+    background-color: #ff4d4d;
+    color: white;
+    padding: 0.5em 1em;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.post-actions button:hover {
+    background-color: #d93636;
+}
